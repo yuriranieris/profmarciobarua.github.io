@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #000000, #001f3f);
+    overflow: hidden;
+}
+
+.login-container {
+    width: 300px;
+    height: 400px;
+    background: linear-gradient(to bottom, #000000, #001f3f);
+    margin: 100px auto;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.781);
+    border-radius: 20%;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(165, 163, 163);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.textlog {
+  color: rgb(165, 163, 163);
+}
+
+label {
+    margin-top: 10px;
+    font-weight: bold;
+    
+}
+
+input {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px;
+    width: 150px; 
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+input[type="text"],
+input[type="password"],
+button {
+    border-radius: 20px;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+ a {
+    text-decoration: none;
+    color: rgb(165, 163, 163);
+
+}
+
+a:hover {
+    color: white;
+}
+
+footer {
+    background: rgba(0, 0, 0, 0.352);
+    color: white;
+    padding: 20px;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-content p {
+    margin: 0;
+  }
+  
+  .footer-content nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background: rgba(0, 0, 0, 0);
+  }
+  
+  .footer-content nav ul li {
+    display: inline-block;
+    margin-right: 60px;
+  }
+  
+  .footer-content nav ul li a {
+    color: white;
+    text-decoration: none;
+    
+  }
